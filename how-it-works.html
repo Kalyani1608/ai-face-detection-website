@@ -1,0 +1,78 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <title>How It Works - AI-based Face Detection System</title>
+  <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.2/dist/css/bootstrap.min.css" rel="stylesheet">
+  <link rel="stylesheet" href="style.css">
+</head>
+<body>
+  <nav class="navbar navbar-expand-lg navbar-dark bg-primary">
+    <div class="container">
+      <a class="navbar-brand" href="index.html">AI Face Detection</a>
+      <div>
+        <a class="nav-link text-white" href="index.html">Home</a>
+      </div>
+    </div>
+  </nav>
+  <header class="bg-light py-5">
+    <div class="container text-center">
+      <h1 class="display-5">How It Works</h1>
+      <p class="lead mt-3">
+        Discover the technology and process behind our AI-based Face Detection System.
+      </p>
+    </div>
+  </header>
+  <section class="container my-5">
+    <h2>Step-by-Step Process</h2>
+    <ol>
+      <li>
+        <strong>Image Acquisition:</strong> The system captures images or video frames using cameras or uploads.
+      </li>
+      <li>
+        <strong>Preprocessing:</strong> Images are normalized to handle variations in lighting, angles, and occlusions.
+      </li>
+      <li>
+        <strong>Feature Extraction with Transfer Learning:</strong> Pre-trained deep learning models (like CNNs) are used to extract facial features, leveraging knowledge from large datasets.
+      </li>
+      <li>
+        <strong>Cloud & Fog Computing:</strong> Processing is distributed between cloud servers (for heavy computation) and fog nodes (for faster, local analysis), ensuring real-time performance.
+      </li>
+      <li>
+        <strong>Face Comparison & Recognition:</strong> Extracted features are compared with stored data to identify or verify individuals.
+      </li>
+      <li>
+        <strong>Continuous Learning:</strong> The system updates itself with new data, improving accuracy over time.
+      </li>
+    </ol>
+    <h3 class="mt-5">Machine Learning Algorithms Used</h3>
+    <ul>
+      <li>
+        <strong>Decision Tree (DT):</strong> Classifies faces based on feature splits, making decisions at each node.
+      </li>
+      <li>
+        <strong>K-Nearest Neighbor (KNN):</strong> Compares new faces to the most similar known faces for recognition.
+      </li>
+      <li>
+        <strong>Support Vector Machine (SVM):</strong> Finds the optimal boundary to separate different faces in feature space.
+      </li>
+    </ul>
+    <h3 class="mt-5">System Illustration</h3>
+    <img src="https://cdn.pixabay.com/photo/2017/01/10/19/05/face-1963189_1280.png" alt="Face Detection Diagram" class="img-fluid rounded shadow my-4" style="max-width: 500px;">
+    <p>
+      <em>Diagram: The system detects faces, extracts features, and matches them using advanced algorithms.</em>
+    </p>
+    <h3 class="mt-5">Why This Approach?</h3>
+    <ul>
+      <li>Handles real-world challenges: occlusions, expressions, lighting, and angles.</li>
+      <li>Improves over time with online training.</li>
+      <li>Efficient and scalable using cloud and fog computing.</li>
+    </ul>
+    <a href="index.html" class="btn btn-primary mt-4">Back to Home</a>
+  </section>
+  <footer class="bg-primary text-white text-center py-3">
+    &copy; 2024 AI-based Face Detection System
+  </footer>
+</body>
+</html>
